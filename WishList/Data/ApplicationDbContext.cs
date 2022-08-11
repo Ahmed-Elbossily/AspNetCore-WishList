@@ -10,9 +10,6 @@ namespace WishList.Data
 
         }
 
-        public DbSet<Item> Items()
-        {
-            return null;
-        }
+        public DbSet<Item> Items { get; set; }
     }
 }
